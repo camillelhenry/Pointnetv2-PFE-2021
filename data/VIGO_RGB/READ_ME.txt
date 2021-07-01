@@ -1,0 +1,1 @@
+Quelques échantillons de la base de données VIGO RGB : 3 nuages de points de la rue Goethe, Strasbourg, de la forme X Y Z R G B Label
