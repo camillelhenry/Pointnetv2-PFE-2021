@@ -1,0 +1,830 @@
+2021-06-15 14:35:48,549 - Model - INFO - PARAMETER ...
+2021-06-15 14:35:48,549 - Model - INFO - Namespace(batch_size=2, block_size=12, decay_rate=0.0001, epoch=15, gpu='0', learning_rate=0.001, log_dir=None, lr_decay=0.7, model='pointnet2_sem_seg_msg', npoint=4096, num_votes=1, optimizer='Adam', step_size=1, stride=6, test_area=5)
+2021-06-15 14:40:19,007 - Model - INFO - Le nombre de données d'entraînement est : 5037
+2021-06-15 14:40:19,008 - Model - INFO - Le nombre de données test est : 1673
+2021-06-15 14:40:19,165 - Model - INFO - Pas de modèle pré-entrainé, début d un nouvel entraînement...
+2021-06-15 14:40:19,169 - Model - INFO - **** Epoch 1 (1/15) ****
+2021-06-15 14:40:19,170 - Model - INFO - Learning rate:0.001000
+2021-06-15 15:43:45,889 - Model - INFO - Training mean loss: 0.295576
+2021-06-15 15:43:45,890 - Model - INFO - Training accuracy: 0.893768
+2021-06-15 15:43:45,890 - Model - INFO - Save model...
+2021-06-15 15:43:45,890 - Model - INFO - Saving at log\sem_seg\2021-06-15_14-35\checkpoints/model.pth
+2021-06-15 15:43:45,976 - Model - INFO - Saving model....
+2021-06-15 15:43:45,977 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2021-06-15 16:02:03,716 - Model - INFO - eval mean loss: 1.399579
+2021-06-15 16:02:03,716 - Model - INFO - eval point avg class IoU: 0.271657
+2021-06-15 16:02:03,716 - Model - INFO - eval point accuracy: 0.716463
+2021-06-15 16:02:03,716 - Model - INFO - eval point avg class acc: 0.355909
+2021-06-15 16:02:03,716 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.028, IoU: 0.707 
+class Fenetre        weight: 0.662, IoU: 0.301 
+class Porte          weight: 0.270, IoU: 0.036 
+class Végétation     weight: 0.032, IoU: 0.006 
+class Sol            weight: 0.009, IoU: 0.307 
+
+2021-06-15 16:02:03,717 - Model - INFO - Eval mean loss: 1.399579
+2021-06-15 16:02:03,717 - Model - INFO - Eval accuracy: 0.716463
+2021-06-15 16:02:03,717 - Model - INFO - Save model...
+2021-06-15 16:02:03,717 - Model - INFO - Saving at log\sem_seg\2021-06-15_14-35\checkpoints/best_model.pth
+2021-06-15 16:02:03,784 - Model - INFO - Saving model....
+2021-06-15 16:02:03,785 - Model - INFO - Best mIoU: 0.271657
+2021-06-15 16:02:03,785 - Model - INFO - **** Epoch 2 (2/15) ****
+2021-06-15 16:02:03,786 - Model - INFO - Learning rate:0.000700
+2021-06-15 17:05:51,563 - Model - INFO - Training mean loss: 0.131213
+2021-06-15 17:05:51,563 - Model - INFO - Training accuracy: 0.948382
+2021-06-15 17:05:51,564 - Model - INFO - ---- EPOCH 002 EVALUATION ----
+2021-06-15 17:24:05,838 - Model - INFO - eval mean loss: 1.905748
+2021-06-15 17:24:05,839 - Model - INFO - eval point avg class IoU: 0.184362
+2021-06-15 17:24:05,839 - Model - INFO - eval point accuracy: 0.627906
+2021-06-15 17:24:05,839 - Model - INFO - eval point avg class acc: 0.316604
+2021-06-15 17:24:05,839 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.028, IoU: 0.663 
+class Fenetre        weight: 0.662, IoU: 0.080 
+class Porte          weight: 0.270, IoU: 0.034 
+class Végétation     weight: 0.031, IoU: 0.025 
+class Sol            weight: 0.009, IoU: 0.120 
+
+2021-06-15 17:24:05,840 - Model - INFO - Eval mean loss: 1.905748
+2021-06-15 17:24:05,840 - Model - INFO - Eval accuracy: 0.627906
+2021-06-15 17:24:05,841 - Model - INFO - Best mIoU: 0.271657
+2021-06-15 17:24:05,841 - Model - INFO - **** Epoch 3 (3/15) ****
+2021-06-15 17:24:05,841 - Model - INFO - Learning rate:0.000490
+2021-06-15 18:27:33,370 - Model - INFO - Training mean loss: 0.105203
+2021-06-15 18:27:33,370 - Model - INFO - Training accuracy: 0.957906
+2021-06-15 18:27:33,371 - Model - INFO - ---- EPOCH 003 EVALUATION ----
+2021-06-15 18:45:45,808 - Model - INFO - eval mean loss: 3.952726
+2021-06-15 18:45:45,809 - Model - INFO - eval point avg class IoU: 0.092210
+2021-06-15 18:45:45,809 - Model - INFO - eval point accuracy: 0.317712
+2021-06-15 18:45:45,809 - Model - INFO - eval point avg class acc: 0.236253
+2021-06-15 18:45:45,809 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.027, IoU: 0.371 
+class Fenetre        weight: 0.665, IoU: 0.051 
+class Porte          weight: 0.269, IoU: 0.007 
+class Végétation     weight: 0.029, IoU: 0.000 
+class Sol            weight: 0.009, IoU: 0.032 
+
+2021-06-15 18:45:45,810 - Model - INFO - Eval mean loss: 3.952726
+2021-06-15 18:45:45,810 - Model - INFO - Eval accuracy: 0.317712
+2021-06-15 18:45:45,811 - Model - INFO - Best mIoU: 0.271657
+2021-06-15 18:45:45,811 - Model - INFO - **** Epoch 4 (4/15) ****
+2021-06-15 18:45:45,812 - Model - INFO - Learning rate:0.000343
+2021-06-15 19:50:00,327 - Model - INFO - Training mean loss: 0.090044
+2021-06-15 19:50:00,327 - Model - INFO - Training accuracy: 0.963513
+2021-06-15 19:50:00,327 - Model - INFO - ---- EPOCH 004 EVALUATION ----
+2021-06-15 20:08:16,944 - Model - INFO - eval mean loss: 1.553279
+2021-06-15 20:08:16,944 - Model - INFO - eval point avg class IoU: 0.315909
+2021-06-15 20:08:16,945 - Model - INFO - eval point accuracy: 0.754186
+2021-06-15 20:08:16,945 - Model - INFO - eval point avg class acc: 0.415544
+2021-06-15 20:08:16,945 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.031, IoU: 0.722 
+class Fenetre        weight: 0.658, IoU: 0.474 
+class Porte          weight: 0.269, IoU: 0.002 
+class Végétation     weight: 0.033, IoU: 0.001 
+class Sol            weight: 0.009, IoU: 0.381 
+
+2021-06-15 20:08:16,946 - Model - INFO - Eval mean loss: 1.553279
+2021-06-15 20:08:16,946 - Model - INFO - Eval accuracy: 0.754186
+2021-06-15 20:08:16,946 - Model - INFO - Save model...
+2021-06-15 20:08:16,946 - Model - INFO - Saving at log\sem_seg\2021-06-15_14-35\checkpoints/best_model.pth
+2021-06-15 20:08:17,015 - Model - INFO - Saving model....
+2021-06-15 20:08:17,015 - Model - INFO - Best mIoU: 0.315909
+2021-06-15 20:08:17,016 - Model - INFO - **** Epoch 5 (5/15) ****
+2021-06-15 20:08:17,016 - Model - INFO - Learning rate:0.000240
+2021-06-15 21:12:02,946 - Model - INFO - Training mean loss: 0.082052
+2021-06-15 21:12:02,946 - Model - INFO - Training accuracy: 0.966727
+2021-06-15 21:12:02,947 - Model - INFO - ---- EPOCH 005 EVALUATION ----
+2021-06-15 21:30:19,109 - Model - INFO - eval mean loss: 1.870127
+2021-06-15 21:30:19,110 - Model - INFO - eval point avg class IoU: 0.303315
+2021-06-15 21:30:19,110 - Model - INFO - eval point accuracy: 0.762448
+2021-06-15 21:30:19,111 - Model - INFO - eval point avg class acc: 0.390701
+2021-06-15 21:30:19,111 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.030, IoU: 0.757 
+class Fenetre        weight: 0.659, IoU: 0.404 
+class Porte          weight: 0.267, IoU: 0.000 
+class Végétation     weight: 0.034, IoU: 0.005 
+class Sol            weight: 0.010, IoU: 0.351 
+
+2021-06-15 21:30:19,112 - Model - INFO - Eval mean loss: 1.870127
+2021-06-15 21:30:19,112 - Model - INFO - Eval accuracy: 0.762448
+2021-06-15 21:30:19,112 - Model - INFO - Best mIoU: 0.315909
+2021-06-15 21:30:19,112 - Model - INFO - **** Epoch 6 (6/15) ****
+2021-06-15 21:30:19,112 - Model - INFO - Learning rate:0.000168
+2021-06-15 22:33:57,732 - Model - INFO - Training mean loss: 0.076244
+2021-06-15 22:33:57,732 - Model - INFO - Training accuracy: 0.968850
+2021-06-15 22:33:57,733 - Model - INFO - Save model...
+2021-06-15 22:33:57,733 - Model - INFO - Saving at log\sem_seg\2021-06-15_14-35\checkpoints/model.pth
+2021-06-15 22:33:57,806 - Model - INFO - Saving model....
+2021-06-15 22:33:57,807 - Model - INFO - ---- EPOCH 006 EVALUATION ----
+2021-06-15 22:52:10,874 - Model - INFO - eval mean loss: 1.491400
+2021-06-15 22:52:10,875 - Model - INFO - eval point avg class IoU: 0.293738
+2021-06-15 22:52:10,875 - Model - INFO - eval point accuracy: 0.765713
+2021-06-15 22:52:10,875 - Model - INFO - eval point avg class acc: 0.424422
+2021-06-15 22:52:10,875 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.027, IoU: 0.748 
+class Fenetre        weight: 0.663, IoU: 0.474 
+class Porte          weight: 0.270, IoU: 0.001 
+class Végétation     weight: 0.031, IoU: 0.000 
+class Sol            weight: 0.009, IoU: 0.245 
+
+2021-06-15 22:52:10,876 - Model - INFO - Eval mean loss: 1.491400
+2021-06-15 22:52:10,876 - Model - INFO - Eval accuracy: 0.765713
+2021-06-15 22:52:10,876 - Model - INFO - Best mIoU: 0.315909
+2021-06-15 22:52:10,877 - Model - INFO - **** Epoch 7 (7/15) ****
+2021-06-15 22:52:10,877 - Model - INFO - Learning rate:0.000118
+2021-06-15 23:55:49,476 - Model - INFO - Training mean loss: 0.070994
+2021-06-15 23:55:49,476 - Model - INFO - Training accuracy: 0.970839
+2021-06-15 23:55:49,477 - Model - INFO - ---- EPOCH 007 EVALUATION ----
+2021-06-16 00:14:09,080 - Model - INFO - eval mean loss: 1.652139
+2021-06-16 00:14:09,081 - Model - INFO - eval point avg class IoU: 0.316120
+2021-06-16 00:14:09,081 - Model - INFO - eval point accuracy: 0.774970
+2021-06-16 00:14:09,081 - Model - INFO - eval point avg class acc: 0.397932
+2021-06-16 00:14:09,082 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.029, IoU: 0.758 
+class Fenetre        weight: 0.660, IoU: 0.457 
+class Porte          weight: 0.270, IoU: 0.001 
+class Végétation     weight: 0.032, IoU: 0.008 
+class Sol            weight: 0.009, IoU: 0.357 
+
+2021-06-16 00:14:09,083 - Model - INFO - Eval mean loss: 1.652139
+2021-06-16 00:14:09,083 - Model - INFO - Eval accuracy: 0.774970
+2021-06-16 00:14:09,083 - Model - INFO - Save model...
+2021-06-16 00:14:09,083 - Model - INFO - Saving at log\sem_seg\2021-06-15_14-35\checkpoints/best_model.pth
+2021-06-16 00:14:09,152 - Model - INFO - Saving model....
+2021-06-16 00:14:09,153 - Model - INFO - Best mIoU: 0.316120
+2021-06-16 00:14:09,153 - Model - INFO - **** Epoch 8 (8/15) ****
+2021-06-16 00:14:09,153 - Model - INFO - Learning rate:0.000082
+2021-06-16 01:17:46,677 - Model - INFO - Training mean loss: 0.068915
+2021-06-16 01:17:46,677 - Model - INFO - Training accuracy: 0.971718
+2021-06-16 01:17:46,678 - Model - INFO - ---- EPOCH 008 EVALUATION ----
+2021-06-16 01:36:02,414 - Model - INFO - eval mean loss: 1.541213
+2021-06-16 01:36:02,414 - Model - INFO - eval point avg class IoU: 0.351397
+2021-06-16 01:36:02,415 - Model - INFO - eval point accuracy: 0.809005
+2021-06-16 01:36:02,415 - Model - INFO - eval point avg class acc: 0.447953
+2021-06-16 01:36:02,415 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.028, IoU: 0.799 
+class Fenetre        weight: 0.662, IoU: 0.518 
+class Porte          weight: 0.269, IoU: 0.000 
+class Végétation     weight: 0.032, IoU: 0.000 
+class Sol            weight: 0.009, IoU: 0.440 
+
+2021-06-16 01:36:02,416 - Model - INFO - Eval mean loss: 1.541213
+2021-06-16 01:36:02,416 - Model - INFO - Eval accuracy: 0.809005
+2021-06-16 01:36:02,416 - Model - INFO - Save model...
+2021-06-16 01:36:02,416 - Model - INFO - Saving at log\sem_seg\2021-06-15_14-35\checkpoints/best_model.pth
+2021-06-16 01:36:02,516 - Model - INFO - Saving model....
+2021-06-16 01:36:02,516 - Model - INFO - Best mIoU: 0.351397
+2021-06-16 01:36:02,517 - Model - INFO - **** Epoch 9 (9/15) ****
+2021-06-16 01:36:02,517 - Model - INFO - Learning rate:0.000058
+2021-06-16 02:39:56,962 - Model - INFO - Training mean loss: 0.066175
+2021-06-16 02:39:56,962 - Model - INFO - Training accuracy: 0.972646
+2021-06-16 02:39:56,963 - Model - INFO - ---- EPOCH 009 EVALUATION ----
+2021-06-16 02:58:22,571 - Model - INFO - eval mean loss: 1.469180
+2021-06-16 02:58:22,572 - Model - INFO - eval point avg class IoU: 0.371605
+2021-06-16 02:58:22,572 - Model - INFO - eval point accuracy: 0.824477
+2021-06-16 02:58:22,572 - Model - INFO - eval point avg class acc: 0.469770
+2021-06-16 02:58:22,572 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.029, IoU: 0.810 
+class Fenetre        weight: 0.661, IoU: 0.579 
+class Porte          weight: 0.269, IoU: 0.000 
+class Végétation     weight: 0.032, IoU: 0.000 
+class Sol            weight: 0.009, IoU: 0.468 
+
+2021-06-16 02:58:22,573 - Model - INFO - Eval mean loss: 1.469180
+2021-06-16 02:58:22,574 - Model - INFO - Eval accuracy: 0.824477
+2021-06-16 02:58:22,574 - Model - INFO - Save model...
+2021-06-16 02:58:22,574 - Model - INFO - Saving at log\sem_seg\2021-06-15_14-35\checkpoints/best_model.pth
+2021-06-16 02:58:22,661 - Model - INFO - Saving model....
+2021-06-16 02:58:22,661 - Model - INFO - Best mIoU: 0.371605
+2021-06-16 02:58:22,661 - Model - INFO - **** Epoch 10 (10/15) ****
+2021-06-16 02:58:22,661 - Model - INFO - Learning rate:0.000040
+2021-06-16 04:02:04,368 - Model - INFO - Training mean loss: 0.065060
+2021-06-16 04:02:04,425 - Model - INFO - Training accuracy: 0.973117
+2021-06-16 04:02:04,427 - Model - INFO - ---- EPOCH 010 EVALUATION ----
+2021-06-16 04:20:25,115 - Model - INFO - eval mean loss: 1.418710
+2021-06-16 04:20:25,115 - Model - INFO - eval point avg class IoU: 0.366258
+2021-06-16 04:20:25,115 - Model - INFO - eval point accuracy: 0.820831
+2021-06-16 04:20:25,116 - Model - INFO - eval point avg class acc: 0.460260
+2021-06-16 04:20:25,117 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.028, IoU: 0.802 
+class Fenetre        weight: 0.663, IoU: 0.578 
+class Porte          weight: 0.270, IoU: 0.006 
+class Végétation     weight: 0.030, IoU: 0.000 
+class Sol            weight: 0.009, IoU: 0.445 
+
+2021-06-16 04:20:25,118 - Model - INFO - Eval mean loss: 1.418710
+2021-06-16 04:20:25,118 - Model - INFO - Eval accuracy: 0.820831
+2021-06-16 04:20:25,118 - Model - INFO - Best mIoU: 0.371605
+2021-06-16 04:20:25,119 - Model - INFO - **** Epoch 11 (11/15) ****
+2021-06-16 04:20:25,120 - Model - INFO - Learning rate:0.000028
+2021-06-16 05:24:13,730 - Model - INFO - Training mean loss: 0.063778
+2021-06-16 05:24:13,730 - Model - INFO - Training accuracy: 0.973588
+2021-06-16 05:24:13,731 - Model - INFO - Save model...
+2021-06-16 05:24:13,731 - Model - INFO - Saving at log\sem_seg\2021-06-15_14-35\checkpoints/model.pth
+2021-06-16 05:24:13,913 - Model - INFO - Saving model....
+2021-06-16 05:24:13,913 - Model - INFO - ---- EPOCH 011 EVALUATION ----
+2021-06-16 05:42:37,832 - Model - INFO - eval mean loss: 1.568458
+2021-06-16 05:42:37,832 - Model - INFO - eval point avg class IoU: 0.351581
+2021-06-16 05:42:37,833 - Model - INFO - eval point accuracy: 0.803426
+2021-06-16 05:42:37,833 - Model - INFO - eval point avg class acc: 0.440596
+2021-06-16 05:42:37,833 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.027, IoU: 0.790 
+class Fenetre        weight: 0.666, IoU: 0.513 
+class Porte          weight: 0.268, IoU: 0.000 
+class Végétation     weight: 0.030, IoU: 0.001 
+class Sol            weight: 0.009, IoU: 0.454 
+
+2021-06-16 05:42:37,834 - Model - INFO - Eval mean loss: 1.568458
+2021-06-16 05:42:37,834 - Model - INFO - Eval accuracy: 0.803426
+2021-06-16 05:42:37,834 - Model - INFO - Best mIoU: 0.371605
+2021-06-16 05:42:37,834 - Model - INFO - **** Epoch 12 (12/15) ****
+2021-06-16 05:42:37,834 - Model - INFO - Learning rate:0.000020
+2021-06-16 06:46:31,805 - Model - INFO - Training mean loss: 0.063577
+2021-06-16 06:46:31,805 - Model - INFO - Training accuracy: 0.973725
+2021-06-16 06:46:31,805 - Model - INFO - ---- EPOCH 012 EVALUATION ----
+2021-06-16 07:04:58,933 - Model - INFO - eval mean loss: 1.567264
+2021-06-16 07:04:58,934 - Model - INFO - eval point avg class IoU: 0.360371
+2021-06-16 07:04:58,934 - Model - INFO - eval point accuracy: 0.813457
+2021-06-16 07:04:58,934 - Model - INFO - eval point avg class acc: 0.448599
+2021-06-16 07:04:58,934 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.028, IoU: 0.801 
+class Fenetre        weight: 0.661, IoU: 0.538 
+class Porte          weight: 0.270, IoU: 0.001 
+class Végétation     weight: 0.031, IoU: 0.000 
+class Sol            weight: 0.009, IoU: 0.461 
+
+2021-06-16 07:04:58,935 - Model - INFO - Eval mean loss: 1.567264
+2021-06-16 07:04:58,937 - Model - INFO - Eval accuracy: 0.813457
+2021-06-16 07:04:58,938 - Model - INFO - Best mIoU: 0.371605
+2021-06-16 07:04:58,938 - Model - INFO - **** Epoch 13 (13/15) ****
+2021-06-16 07:04:58,939 - Model - INFO - Learning rate:0.000014
+2021-06-16 08:09:07,103 - Model - INFO - Training mean loss: 0.062843
+2021-06-16 08:09:07,104 - Model - INFO - Training accuracy: 0.974025
+2021-06-16 08:09:07,125 - Model - INFO - ---- EPOCH 013 EVALUATION ----
+2021-06-16 08:27:21,742 - Model - INFO - eval mean loss: 1.555816
+2021-06-16 08:27:21,743 - Model - INFO - eval point avg class IoU: 0.374563
+2021-06-16 08:27:21,743 - Model - INFO - eval point accuracy: 0.830200
+2021-06-16 08:27:21,743 - Model - INFO - eval point avg class acc: 0.469714
+2021-06-16 08:27:21,743 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.031, IoU: 0.818 
+class Fenetre        weight: 0.657, IoU: 0.603 
+class Porte          weight: 0.270, IoU: 0.001 
+class Végétation     weight: 0.032, IoU: 0.000 
+class Sol            weight: 0.010, IoU: 0.450 
+
+2021-06-16 08:27:21,745 - Model - INFO - Eval mean loss: 1.555816
+2021-06-16 08:27:21,745 - Model - INFO - Eval accuracy: 0.830200
+2021-06-16 08:27:21,745 - Model - INFO - Save model...
+2021-06-16 08:27:21,745 - Model - INFO - Saving at log\sem_seg\2021-06-15_14-35\checkpoints/best_model.pth
+2021-06-16 08:27:21,919 - Model - INFO - Saving model....
+2021-06-16 08:27:21,919 - Model - INFO - Best mIoU: 0.374563
+2021-06-16 08:27:21,919 - Model - INFO - **** Epoch 14 (14/15) ****
+2021-06-16 08:27:21,919 - Model - INFO - Learning rate:0.000010
+2021-06-16 09:31:56,376 - Model - INFO - Training mean loss: 0.062563
+2021-06-16 09:31:56,376 - Model - INFO - Training accuracy: 0.974103
+2021-06-16 09:31:56,378 - Model - INFO - ---- EPOCH 014 EVALUATION ----
+2021-06-16 09:50:12,602 - Model - INFO - eval mean loss: 1.566672
+2021-06-16 09:50:12,603 - Model - INFO - eval point avg class IoU: 0.369405
+2021-06-16 09:50:12,603 - Model - INFO - eval point accuracy: 0.826296
+2021-06-16 09:50:12,603 - Model - INFO - eval point avg class acc: 0.458913
+2021-06-16 09:50:12,603 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.030, IoU: 0.818 
+class Fenetre        weight: 0.662, IoU: 0.574 
+class Porte          weight: 0.267, IoU: 0.002 
+class Végétation     weight: 0.032, IoU: 0.000 
+class Sol            weight: 0.009, IoU: 0.453 
+
+2021-06-16 09:50:12,604 - Model - INFO - Eval mean loss: 1.566672
+2021-06-16 09:50:12,604 - Model - INFO - Eval accuracy: 0.826296
+2021-06-16 09:50:12,604 - Model - INFO - Best mIoU: 0.374563
+2021-06-16 09:50:12,604 - Model - INFO - **** Epoch 15 (15/15) ****
+2021-06-16 09:50:12,604 - Model - INFO - Learning rate:0.000010
+2021-06-16 10:54:08,292 - Model - INFO - Training mean loss: 0.062383
+2021-06-16 10:54:08,293 - Model - INFO - Training accuracy: 0.974215
+2021-06-16 10:54:08,294 - Model - INFO - ---- EPOCH 015 EVALUATION ----
+2021-06-16 11:12:29,640 - Model - INFO - eval mean loss: 1.574955
+2021-06-16 11:12:29,640 - Model - INFO - eval point avg class IoU: 0.373683
+2021-06-16 11:12:29,640 - Model - INFO - eval point accuracy: 0.826483
+2021-06-16 11:12:29,640 - Model - INFO - eval point avg class acc: 0.463283
+2021-06-16 11:12:29,640 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.031, IoU: 0.817 
+class Fenetre        weight: 0.659, IoU: 0.585 
+class Porte          weight: 0.267, IoU: 0.002 
+class Végétation     weight: 0.033, IoU: 0.000 
+class Sol            weight: 0.010, IoU: 0.464 
+
+2021-06-16 11:12:29,643 - Model - INFO - Eval mean loss: 1.574955
+2021-06-16 11:12:29,643 - Model - INFO - Eval accuracy: 0.826483
+2021-06-16 11:12:29,643 - Model - INFO - Best mIoU: 0.374563
+2021-06-16 13:22:48,933 - Model - INFO - PARAMETER ...
+2021-06-16 13:22:48,933 - Model - INFO - Namespace(batch_size=2, block_size=10, decay_rate=0.0001, epoch=25, gpu='0', learning_rate=0.001, log_dir=None, lr_decay=0.7, model='pointnet2_sem_seg_msg', npoint=4096, num_votes=1, optimizer='Adam', step_size=1, stride=5, test_area=5)
+2021-06-16 13:23:05,715 - Model - INFO - Le nombre de données d'entraînement est : 299
+2021-06-16 13:23:05,716 - Model - INFO - Le nombre de données test est : 169
+2021-06-16 13:23:05,843 - Model - INFO - Pas de modèle pré-entrainé, début d un nouvel entraînement...
+2021-06-16 13:23:05,875 - Model - INFO - **** Epoch 1 (1/25) ****
+2021-06-16 13:23:05,876 - Model - INFO - Learning rate:0.001000
+2021-06-16 13:25:54,089 - Model - INFO - Training mean loss: 0.978831
+2021-06-16 13:25:54,090 - Model - INFO - Training accuracy: 0.637880
+2021-06-16 13:25:54,091 - Model - INFO - Save model...
+2021-06-16 13:25:54,091 - Model - INFO - Saving at log\sem_seg\2021-06-16_13-22\checkpoints/model.pth
+2021-06-16 13:25:54,179 - Model - INFO - Saving model....
+2021-06-16 13:25:54,179 - Model - INFO - ---- EPOCH 001 EVALUATION ----
+2021-06-16 13:27:24,670 - Model - INFO - eval mean loss: 1.330892
+2021-06-16 13:27:24,671 - Model - INFO - eval point avg class IoU: 0.246527
+2021-06-16 13:27:24,671 - Model - INFO - eval point accuracy: 0.445403
+2021-06-16 13:27:24,671 - Model - INFO - eval point avg class acc: 0.382222
+2021-06-16 13:27:24,671 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.120, IoU: 0.332 
+class Fenetre        weight: 0.513, IoU: 0.273 
+class balcon         weight: 0.236, IoU: 0.031 
+class toit           weight: 0.062, IoU: 0.269 
+class végétation     weight: 0.070, IoU: 0.327 
+
+2021-06-16 13:27:24,672 - Model - INFO - Eval mean loss: 1.330892
+2021-06-16 13:27:24,672 - Model - INFO - Eval accuracy: 0.445403
+2021-06-16 13:27:24,672 - Model - INFO - Save model...
+2021-06-16 13:27:24,672 - Model - INFO - Saving at log\sem_seg\2021-06-16_13-22\checkpoints/best_model.pth
+2021-06-16 13:27:24,779 - Model - INFO - Saving model....
+2021-06-16 13:27:24,780 - Model - INFO - Best mIoU: 0.246527
+2021-06-16 13:27:24,780 - Model - INFO - **** Epoch 2 (2/25) ****
+2021-06-16 13:27:24,781 - Model - INFO - Learning rate:0.000700
+2021-06-16 13:30:12,992 - Model - INFO - Training mean loss: 0.656407
+2021-06-16 13:30:12,993 - Model - INFO - Training accuracy: 0.759145
+2021-06-16 13:30:12,993 - Model - INFO - ---- EPOCH 002 EVALUATION ----
+2021-06-16 13:31:42,184 - Model - INFO - eval mean loss: 1.321383
+2021-06-16 13:31:42,185 - Model - INFO - eval point avg class IoU: 0.332523
+2021-06-16 13:31:42,185 - Model - INFO - eval point accuracy: 0.442088
+2021-06-16 13:31:42,185 - Model - INFO - eval point avg class acc: 0.495001
+2021-06-16 13:31:42,185 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.121, IoU: 0.288 
+class Fenetre        weight: 0.519, IoU: 0.269 
+class balcon         weight: 0.238, IoU: 0.109 
+class toit           weight: 0.061, IoU: 0.113 
+class végétation     weight: 0.061, IoU: 0.884 
+
+2021-06-16 13:31:42,186 - Model - INFO - Eval mean loss: 1.321383
+2021-06-16 13:31:42,186 - Model - INFO - Eval accuracy: 0.442088
+2021-06-16 13:31:42,187 - Model - INFO - Save model...
+2021-06-16 13:31:42,187 - Model - INFO - Saving at log\sem_seg\2021-06-16_13-22\checkpoints/best_model.pth
+2021-06-16 13:31:42,262 - Model - INFO - Saving model....
+2021-06-16 13:31:42,262 - Model - INFO - Best mIoU: 0.332523
+2021-06-16 13:31:42,262 - Model - INFO - **** Epoch 3 (3/25) ****
+2021-06-16 13:31:42,262 - Model - INFO - Learning rate:0.000490
+2021-06-16 13:34:29,939 - Model - INFO - Training mean loss: 0.503127
+2021-06-16 13:34:29,939 - Model - INFO - Training accuracy: 0.810242
+2021-06-16 13:34:29,939 - Model - INFO - ---- EPOCH 003 EVALUATION ----
+2021-06-16 13:35:59,381 - Model - INFO - eval mean loss: 1.085477
+2021-06-16 13:35:59,382 - Model - INFO - eval point avg class IoU: 0.359542
+2021-06-16 13:35:59,382 - Model - INFO - eval point accuracy: 0.500294
+2021-06-16 13:35:59,382 - Model - INFO - eval point avg class acc: 0.536235
+2021-06-16 13:35:59,382 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.146, IoU: 0.375 
+class Fenetre        weight: 0.486, IoU: 0.220 
+class balcon         weight: 0.231, IoU: 0.178 
+class toit           weight: 0.064, IoU: 0.153 
+class végétation     weight: 0.071, IoU: 0.871 
+
+2021-06-16 13:35:59,383 - Model - INFO - Eval mean loss: 1.085477
+2021-06-16 13:35:59,383 - Model - INFO - Eval accuracy: 0.500294
+2021-06-16 13:35:59,383 - Model - INFO - Save model...
+2021-06-16 13:35:59,383 - Model - INFO - Saving at log\sem_seg\2021-06-16_13-22\checkpoints/best_model.pth
+2021-06-16 13:35:59,457 - Model - INFO - Saving model....
+2021-06-16 13:35:59,458 - Model - INFO - Best mIoU: 0.359542
+2021-06-16 13:35:59,459 - Model - INFO - **** Epoch 4 (4/25) ****
+2021-06-16 13:35:59,459 - Model - INFO - Learning rate:0.000343
+2021-06-16 13:38:47,009 - Model - INFO - Training mean loss: 0.434217
+2021-06-16 13:38:47,010 - Model - INFO - Training accuracy: 0.836853
+2021-06-16 13:38:47,010 - Model - INFO - ---- EPOCH 004 EVALUATION ----
+2021-06-16 13:40:15,604 - Model - INFO - eval mean loss: 1.049953
+2021-06-16 13:40:15,604 - Model - INFO - eval point avg class IoU: 0.366876
+2021-06-16 13:40:15,604 - Model - INFO - eval point accuracy: 0.634652
+2021-06-16 13:40:15,604 - Model - INFO - eval point avg class acc: 0.484038
+2021-06-16 13:40:15,604 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.118, IoU: 0.575 
+class Fenetre        weight: 0.505, IoU: 0.097 
+class balcon         weight: 0.234, IoU: 0.050 
+class toit           weight: 0.059, IoU: 0.335 
+class végétation     weight: 0.085, IoU: 0.778 
+
+2021-06-16 13:40:15,605 - Model - INFO - Eval mean loss: 1.049953
+2021-06-16 13:40:15,605 - Model - INFO - Eval accuracy: 0.634652
+2021-06-16 13:40:15,605 - Model - INFO - Save model...
+2021-06-16 13:40:15,605 - Model - INFO - Saving at log\sem_seg\2021-06-16_13-22\checkpoints/best_model.pth
+2021-06-16 13:40:15,677 - Model - INFO - Saving model....
+2021-06-16 13:40:15,677 - Model - INFO - Best mIoU: 0.366876
+2021-06-16 13:40:15,678 - Model - INFO - **** Epoch 5 (5/25) ****
+2021-06-16 13:40:15,678 - Model - INFO - Learning rate:0.000240
+2021-06-16 13:43:02,784 - Model - INFO - Training mean loss: 0.378728
+2021-06-16 13:43:02,784 - Model - INFO - Training accuracy: 0.854984
+2021-06-16 13:43:02,784 - Model - INFO - ---- EPOCH 005 EVALUATION ----
+2021-06-16 13:44:31,261 - Model - INFO - eval mean loss: 1.269954
+2021-06-16 13:44:31,261 - Model - INFO - eval point avg class IoU: 0.362816
+2021-06-16 13:44:31,262 - Model - INFO - eval point accuracy: 0.582085
+2021-06-16 13:44:31,262 - Model - INFO - eval point avg class acc: 0.475630
+2021-06-16 13:44:31,262 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.134, IoU: 0.442 
+class Fenetre        weight: 0.502, IoU: 0.337 
+class balcon         weight: 0.227, IoU: 0.000 
+class toit           weight: 0.063, IoU: 0.208 
+class végétation     weight: 0.074, IoU: 0.826 
+
+2021-06-16 13:44:31,263 - Model - INFO - Eval mean loss: 1.269954
+2021-06-16 13:44:31,263 - Model - INFO - Eval accuracy: 0.582085
+2021-06-16 13:44:31,263 - Model - INFO - Best mIoU: 0.366876
+2021-06-16 13:44:31,263 - Model - INFO - **** Epoch 6 (6/25) ****
+2021-06-16 13:44:31,263 - Model - INFO - Learning rate:0.000168
+2021-06-16 13:47:19,027 - Model - INFO - Training mean loss: 0.337949
+2021-06-16 13:47:19,028 - Model - INFO - Training accuracy: 0.869875
+2021-06-16 13:47:19,028 - Model - INFO - Save model...
+2021-06-16 13:47:19,029 - Model - INFO - Saving at log\sem_seg\2021-06-16_13-22\checkpoints/model.pth
+2021-06-16 13:47:19,098 - Model - INFO - Saving model....
+2021-06-16 13:47:19,098 - Model - INFO - ---- EPOCH 006 EVALUATION ----
+2021-06-16 13:48:47,931 - Model - INFO - eval mean loss: 1.081353
+2021-06-16 13:48:47,932 - Model - INFO - eval point avg class IoU: 0.414235
+2021-06-16 13:48:47,932 - Model - INFO - eval point accuracy: 0.637476
+2021-06-16 13:48:47,933 - Model - INFO - eval point avg class acc: 0.533858
+2021-06-16 13:48:47,933 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.138, IoU: 0.548 
+class Fenetre        weight: 0.502, IoU: 0.244 
+class balcon         weight: 0.237, IoU: 0.118 
+class toit           weight: 0.064, IoU: 0.315 
+class végétation     weight: 0.059, IoU: 0.846 
+
+2021-06-16 13:48:47,934 - Model - INFO - Eval mean loss: 1.081353
+2021-06-16 13:48:47,934 - Model - INFO - Eval accuracy: 0.637476
+2021-06-16 13:48:47,934 - Model - INFO - Save model...
+2021-06-16 13:48:47,934 - Model - INFO - Saving at log\sem_seg\2021-06-16_13-22\checkpoints/best_model.pth
+2021-06-16 13:48:48,003 - Model - INFO - Saving model....
+2021-06-16 13:48:48,003 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 13:48:48,004 - Model - INFO - **** Epoch 7 (7/25) ****
+2021-06-16 13:48:48,004 - Model - INFO - Learning rate:0.000118
+2021-06-16 13:51:34,514 - Model - INFO - Training mean loss: 0.308502
+2021-06-16 13:51:34,514 - Model - INFO - Training accuracy: 0.879199
+2021-06-16 13:51:34,515 - Model - INFO - ---- EPOCH 007 EVALUATION ----
+2021-06-16 13:53:04,060 - Model - INFO - eval mean loss: 1.139527
+2021-06-16 13:53:04,060 - Model - INFO - eval point avg class IoU: 0.406349
+2021-06-16 13:53:04,060 - Model - INFO - eval point accuracy: 0.645572
+2021-06-16 13:53:04,061 - Model - INFO - eval point avg class acc: 0.505566
+2021-06-16 13:53:04,061 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.132, IoU: 0.577 
+class Fenetre        weight: 0.513, IoU: 0.200 
+class balcon         weight: 0.242, IoU: 0.108 
+class toit           weight: 0.057, IoU: 0.316 
+class végétation     weight: 0.056, IoU: 0.830 
+
+2021-06-16 13:53:04,061 - Model - INFO - Eval mean loss: 1.139527
+2021-06-16 13:53:04,061 - Model - INFO - Eval accuracy: 0.645572
+2021-06-16 13:53:04,062 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 13:53:04,062 - Model - INFO - **** Epoch 8 (8/25) ****
+2021-06-16 13:53:04,062 - Model - INFO - Learning rate:0.000082
+2021-06-16 13:55:51,455 - Model - INFO - Training mean loss: 0.304769
+2021-06-16 13:55:51,455 - Model - INFO - Training accuracy: 0.880474
+2021-06-16 13:55:51,455 - Model - INFO - ---- EPOCH 008 EVALUATION ----
+2021-06-16 13:57:21,088 - Model - INFO - eval mean loss: 1.208610
+2021-06-16 13:57:21,088 - Model - INFO - eval point avg class IoU: 0.388443
+2021-06-16 13:57:21,088 - Model - INFO - eval point accuracy: 0.617949
+2021-06-16 13:57:21,089 - Model - INFO - eval point avg class acc: 0.500098
+2021-06-16 13:57:21,089 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.117, IoU: 0.547 
+class Fenetre        weight: 0.515, IoU: 0.265 
+class balcon         weight: 0.239, IoU: 0.092 
+class toit           weight: 0.059, IoU: 0.271 
+class végétation     weight: 0.071, IoU: 0.767 
+
+2021-06-16 13:57:21,091 - Model - INFO - Eval mean loss: 1.208610
+2021-06-16 13:57:21,091 - Model - INFO - Eval accuracy: 0.617949
+2021-06-16 13:57:21,092 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 13:57:21,092 - Model - INFO - **** Epoch 9 (9/25) ****
+2021-06-16 13:57:21,093 - Model - INFO - Learning rate:0.000058
+2021-06-16 14:00:08,310 - Model - INFO - Training mean loss: 0.292590
+2021-06-16 14:00:08,310 - Model - INFO - Training accuracy: 0.882968
+2021-06-16 14:00:08,311 - Model - INFO - ---- EPOCH 009 EVALUATION ----
+2021-06-16 14:01:38,971 - Model - INFO - eval mean loss: 1.139535
+2021-06-16 14:01:38,971 - Model - INFO - eval point avg class IoU: 0.403511
+2021-06-16 14:01:38,971 - Model - INFO - eval point accuracy: 0.610022
+2021-06-16 14:01:38,972 - Model - INFO - eval point avg class acc: 0.531173
+2021-06-16 14:01:38,972 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.143, IoU: 0.517 
+class Fenetre        weight: 0.494, IoU: 0.241 
+class balcon         weight: 0.228, IoU: 0.097 
+class toit           weight: 0.062, IoU: 0.305 
+class végétation     weight: 0.072, IoU: 0.857 
+
+2021-06-16 14:01:38,972 - Model - INFO - Eval mean loss: 1.139535
+2021-06-16 14:01:38,973 - Model - INFO - Eval accuracy: 0.610022
+2021-06-16 14:01:38,973 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 14:01:38,973 - Model - INFO - **** Epoch 10 (10/25) ****
+2021-06-16 14:01:38,973 - Model - INFO - Learning rate:0.000040
+2021-06-16 14:04:25,716 - Model - INFO - Training mean loss: 0.290320
+2021-06-16 14:04:25,716 - Model - INFO - Training accuracy: 0.882977
+2021-06-16 14:04:25,717 - Model - INFO - ---- EPOCH 010 EVALUATION ----
+2021-06-16 14:05:53,956 - Model - INFO - eval mean loss: 1.161936
+2021-06-16 14:05:53,956 - Model - INFO - eval point avg class IoU: 0.387852
+2021-06-16 14:05:53,957 - Model - INFO - eval point accuracy: 0.582162
+2021-06-16 14:05:53,957 - Model - INFO - eval point avg class acc: 0.503557
+2021-06-16 14:05:53,958 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.136, IoU: 0.464 
+class Fenetre        weight: 0.505, IoU: 0.289 
+class balcon         weight: 0.232, IoU: 0.103 
+class toit           weight: 0.064, IoU: 0.229 
+class végétation     weight: 0.063, IoU: 0.854 
+
+2021-06-16 14:05:53,959 - Model - INFO - Eval mean loss: 1.161936
+2021-06-16 14:05:53,959 - Model - INFO - Eval accuracy: 0.582162
+2021-06-16 14:05:53,959 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 14:05:53,960 - Model - INFO - **** Epoch 11 (11/25) ****
+2021-06-16 14:05:53,960 - Model - INFO - Learning rate:0.000028
+2021-06-16 14:08:40,707 - Model - INFO - Training mean loss: 0.284569
+2021-06-16 14:08:40,707 - Model - INFO - Training accuracy: 0.888034
+2021-06-16 14:08:40,708 - Model - INFO - Save model...
+2021-06-16 14:08:40,708 - Model - INFO - Saving at log\sem_seg\2021-06-16_13-22\checkpoints/model.pth
+2021-06-16 14:08:40,788 - Model - INFO - Saving model....
+2021-06-16 14:08:40,788 - Model - INFO - ---- EPOCH 011 EVALUATION ----
+2021-06-16 14:10:10,136 - Model - INFO - eval mean loss: 1.164776
+2021-06-16 14:10:10,136 - Model - INFO - eval point avg class IoU: 0.393149
+2021-06-16 14:10:10,137 - Model - INFO - eval point accuracy: 0.600879
+2021-06-16 14:10:10,137 - Model - INFO - eval point avg class acc: 0.513100
+2021-06-16 14:10:10,137 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.140, IoU: 0.485 
+class Fenetre        weight: 0.505, IoU: 0.309 
+class balcon         weight: 0.235, IoU: 0.098 
+class toit           weight: 0.060, IoU: 0.239 
+class végétation     weight: 0.060, IoU: 0.835 
+
+2021-06-16 14:10:10,138 - Model - INFO - Eval mean loss: 1.164776
+2021-06-16 14:10:10,138 - Model - INFO - Eval accuracy: 0.600879
+2021-06-16 14:10:10,138 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 14:10:10,139 - Model - INFO - **** Epoch 12 (12/25) ****
+2021-06-16 14:10:10,139 - Model - INFO - Learning rate:0.000020
+2021-06-16 14:12:58,610 - Model - INFO - Training mean loss: 0.283264
+2021-06-16 14:12:58,610 - Model - INFO - Training accuracy: 0.888692
+2021-06-16 14:12:58,610 - Model - INFO - ---- EPOCH 012 EVALUATION ----
+2021-06-16 14:14:28,367 - Model - INFO - eval mean loss: 1.169852
+2021-06-16 14:14:28,368 - Model - INFO - eval point avg class IoU: 0.393313
+2021-06-16 14:14:28,368 - Model - INFO - eval point accuracy: 0.577798
+2021-06-16 14:14:28,368 - Model - INFO - eval point avg class acc: 0.527671
+2021-06-16 14:14:28,368 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.129, IoU: 0.464 
+class Fenetre        weight: 0.511, IoU: 0.274 
+class balcon         weight: 0.242, IoU: 0.110 
+class toit           weight: 0.063, IoU: 0.277 
+class végétation     weight: 0.055, IoU: 0.842 
+
+2021-06-16 14:14:28,369 - Model - INFO - Eval mean loss: 1.169852
+2021-06-16 14:14:28,370 - Model - INFO - Eval accuracy: 0.577798
+2021-06-16 14:14:28,370 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 14:14:28,370 - Model - INFO - **** Epoch 13 (13/25) ****
+2021-06-16 14:14:28,371 - Model - INFO - Learning rate:0.000014
+2021-06-16 14:17:16,171 - Model - INFO - Training mean loss: 0.271145
+2021-06-16 14:17:16,172 - Model - INFO - Training accuracy: 0.892707
+2021-06-16 14:17:16,173 - Model - INFO - ---- EPOCH 013 EVALUATION ----
+2021-06-16 14:18:45,771 - Model - INFO - eval mean loss: 1.154731
+2021-06-16 14:18:45,773 - Model - INFO - eval point avg class IoU: 0.398651
+2021-06-16 14:18:45,773 - Model - INFO - eval point accuracy: 0.608916
+2021-06-16 14:18:45,773 - Model - INFO - eval point avg class acc: 0.514827
+2021-06-16 14:18:45,773 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.161, IoU: 0.503 
+class Fenetre        weight: 0.483, IoU: 0.250 
+class balcon         weight: 0.225, IoU: 0.098 
+class toit           weight: 0.056, IoU: 0.289 
+class végétation     weight: 0.075, IoU: 0.853 
+
+2021-06-16 14:18:45,773 - Model - INFO - Eval mean loss: 1.154731
+2021-06-16 14:18:45,773 - Model - INFO - Eval accuracy: 0.608916
+2021-06-16 14:18:45,773 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 14:18:45,773 - Model - INFO - **** Epoch 14 (14/25) ****
+2021-06-16 14:18:45,773 - Model - INFO - Learning rate:0.000010
+2021-06-16 14:21:33,848 - Model - INFO - Training mean loss: 0.263026
+2021-06-16 14:21:33,848 - Model - INFO - Training accuracy: 0.895186
+2021-06-16 14:21:33,849 - Model - INFO - ---- EPOCH 014 EVALUATION ----
+2021-06-16 14:23:04,598 - Model - INFO - eval mean loss: 1.129680
+2021-06-16 14:23:04,599 - Model - INFO - eval point avg class IoU: 0.409839
+2021-06-16 14:23:04,599 - Model - INFO - eval point accuracy: 0.607798
+2021-06-16 14:23:04,599 - Model - INFO - eval point avg class acc: 0.528735
+2021-06-16 14:23:04,600 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.130, IoU: 0.505 
+class Fenetre        weight: 0.511, IoU: 0.286 
+class balcon         weight: 0.237, IoU: 0.126 
+class toit           weight: 0.062, IoU: 0.256 
+class végétation     weight: 0.060, IoU: 0.877 
+
+2021-06-16 14:23:04,600 - Model - INFO - Eval mean loss: 1.129680
+2021-06-16 14:23:04,600 - Model - INFO - Eval accuracy: 0.607798
+2021-06-16 14:23:04,601 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 14:23:04,601 - Model - INFO - **** Epoch 15 (15/25) ****
+2021-06-16 14:23:04,601 - Model - INFO - Learning rate:0.000010
+2021-06-16 14:25:53,240 - Model - INFO - Training mean loss: 0.274956
+2021-06-16 14:25:53,241 - Model - INFO - Training accuracy: 0.888176
+2021-06-16 14:25:53,242 - Model - INFO - ---- EPOCH 015 EVALUATION ----
+2021-06-16 14:27:22,228 - Model - INFO - eval mean loss: 1.187990
+2021-06-16 14:27:22,229 - Model - INFO - eval point avg class IoU: 0.388350
+2021-06-16 14:27:22,229 - Model - INFO - eval point accuracy: 0.591909
+2021-06-16 14:27:22,229 - Model - INFO - eval point avg class acc: 0.502617
+2021-06-16 14:27:22,229 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.143, IoU: 0.481 
+class Fenetre        weight: 0.500, IoU: 0.283 
+class balcon         weight: 0.231, IoU: 0.108 
+class toit           weight: 0.064, IoU: 0.242 
+class végétation     weight: 0.062, IoU: 0.828 
+
+2021-06-16 14:27:22,230 - Model - INFO - Eval mean loss: 1.187990
+2021-06-16 14:27:22,231 - Model - INFO - Eval accuracy: 0.591909
+2021-06-16 14:27:22,231 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 14:27:22,231 - Model - INFO - **** Epoch 16 (16/25) ****
+2021-06-16 14:27:22,231 - Model - INFO - Learning rate:0.000010
+2021-06-16 14:30:09,626 - Model - INFO - Training mean loss: 0.266638
+2021-06-16 14:30:09,626 - Model - INFO - Training accuracy: 0.893062
+2021-06-16 14:30:09,626 - Model - INFO - Save model...
+2021-06-16 14:30:09,627 - Model - INFO - Saving at log\sem_seg\2021-06-16_13-22\checkpoints/model.pth
+2021-06-16 14:30:09,698 - Model - INFO - Saving model....
+2021-06-16 14:30:09,698 - Model - INFO - ---- EPOCH 016 EVALUATION ----
+2021-06-16 14:31:38,594 - Model - INFO - eval mean loss: 1.069118
+2021-06-16 14:31:38,595 - Model - INFO - eval point avg class IoU: 0.405215
+2021-06-16 14:31:38,595 - Model - INFO - eval point accuracy: 0.605373
+2021-06-16 14:31:38,595 - Model - INFO - eval point avg class acc: 0.544849
+2021-06-16 14:31:38,595 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.151, IoU: 0.482 
+class Fenetre        weight: 0.508, IoU: 0.303 
+class balcon         weight: 0.231, IoU: 0.159 
+class toit           weight: 0.067, IoU: 0.211 
+class végétation     weight: 0.044, IoU: 0.871 
+
+2021-06-16 14:31:38,596 - Model - INFO - Eval mean loss: 1.069118
+2021-06-16 14:31:38,596 - Model - INFO - Eval accuracy: 0.605373
+2021-06-16 14:31:38,596 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 14:31:38,596 - Model - INFO - **** Epoch 17 (17/25) ****
+2021-06-16 14:31:38,596 - Model - INFO - Learning rate:0.000010
+2021-06-16 14:34:26,019 - Model - INFO - Training mean loss: 0.264106
+2021-06-16 14:34:26,020 - Model - INFO - Training accuracy: 0.895589
+2021-06-16 14:34:26,020 - Model - INFO - ---- EPOCH 017 EVALUATION ----
+2021-06-16 14:35:55,278 - Model - INFO - eval mean loss: 1.174903
+2021-06-16 14:35:55,279 - Model - INFO - eval point avg class IoU: 0.390403
+2021-06-16 14:35:55,279 - Model - INFO - eval point accuracy: 0.571975
+2021-06-16 14:35:55,279 - Model - INFO - eval point avg class acc: 0.525274
+2021-06-16 14:35:55,279 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.135, IoU: 0.445 
+class Fenetre        weight: 0.500, IoU: 0.294 
+class balcon         weight: 0.232, IoU: 0.134 
+class toit           weight: 0.068, IoU: 0.229 
+class végétation     weight: 0.065, IoU: 0.849 
+
+2021-06-16 14:35:55,280 - Model - INFO - Eval mean loss: 1.174903
+2021-06-16 14:35:55,280 - Model - INFO - Eval accuracy: 0.571975
+2021-06-16 14:35:55,280 - Model - INFO - Best mIoU: 0.414235
+2021-06-16 14:35:55,280 - Model - INFO - **** Epoch 18 (18/25) ****
+2021-06-16 14:35:55,281 - Model - INFO - Learning rate:0.000010
+2021-06-16 14:38:43,088 - Model - INFO - Training mean loss: 0.277081
+2021-06-16 14:38:43,088 - Model - INFO - Training accuracy: 0.889620
+2021-06-16 14:38:43,090 - Model - INFO - ---- EPOCH 018 EVALUATION ----
+2021-06-16 14:40:12,262 - Model - INFO - eval mean loss: 1.146302
+2021-06-16 14:40:12,263 - Model - INFO - eval point avg class IoU: 0.423932
+2021-06-16 14:40:12,263 - Model - INFO - eval point accuracy: 0.603346
+2021-06-16 14:40:12,263 - Model - INFO - eval point avg class acc: 0.545215
+2021-06-16 14:40:12,263 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.104, IoU: 0.499 
+class Fenetre        weight: 0.513, IoU: 0.304 
+class balcon         weight: 0.244, IoU: 0.156 
+class toit           weight: 0.062, IoU: 0.309 
+class végétation     weight: 0.076, IoU: 0.851 
+
+2021-06-16 14:40:12,264 - Model - INFO - Eval mean loss: 1.146302
+2021-06-16 14:40:12,264 - Model - INFO - Eval accuracy: 0.603346
+2021-06-16 14:40:12,264 - Model - INFO - Save model...
+2021-06-16 14:40:12,265 - Model - INFO - Saving at log\sem_seg\2021-06-16_13-22\checkpoints/best_model.pth
+2021-06-16 14:40:12,355 - Model - INFO - Saving model....
+2021-06-16 14:40:12,355 - Model - INFO - Best mIoU: 0.423932
+2021-06-16 14:40:12,356 - Model - INFO - **** Epoch 19 (19/25) ****
+2021-06-16 14:40:12,356 - Model - INFO - Learning rate:0.000010
+2021-06-16 14:42:59,774 - Model - INFO - Training mean loss: 0.268731
+2021-06-16 14:42:59,775 - Model - INFO - Training accuracy: 0.893167
+2021-06-16 14:42:59,775 - Model - INFO - ---- EPOCH 019 EVALUATION ----
+2021-06-16 14:44:28,513 - Model - INFO - eval mean loss: 1.145188
+2021-06-16 14:44:28,514 - Model - INFO - eval point avg class IoU: 0.404403
+2021-06-16 14:44:28,514 - Model - INFO - eval point accuracy: 0.604098
+2021-06-16 14:44:28,514 - Model - INFO - eval point avg class acc: 0.521029
+2021-06-16 14:44:28,514 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.144, IoU: 0.493 
+class Fenetre        weight: 0.502, IoU: 0.280 
+class balcon         weight: 0.231, IoU: 0.120 
+class toit           weight: 0.064, IoU: 0.259 
+class végétation     weight: 0.060, IoU: 0.871 
+
+2021-06-16 14:44:28,515 - Model - INFO - Eval mean loss: 1.145188
+2021-06-16 14:44:28,515 - Model - INFO - Eval accuracy: 0.604098
+2021-06-16 14:44:28,516 - Model - INFO - Best mIoU: 0.423932
+2021-06-16 14:44:28,516 - Model - INFO - **** Epoch 20 (20/25) ****
+2021-06-16 14:44:28,516 - Model - INFO - Learning rate:0.000010
+2021-06-16 14:47:15,801 - Model - INFO - Training mean loss: 0.266005
+2021-06-16 14:47:15,802 - Model - INFO - Training accuracy: 0.893810
+2021-06-16 14:47:15,802 - Model - INFO - ---- EPOCH 020 EVALUATION ----
+2021-06-16 14:48:45,339 - Model - INFO - eval mean loss: 1.222882
+2021-06-16 14:48:45,339 - Model - INFO - eval point avg class IoU: 0.387217
+2021-06-16 14:48:45,340 - Model - INFO - eval point accuracy: 0.576438
+2021-06-16 14:48:45,341 - Model - INFO - eval point avg class acc: 0.505389
+2021-06-16 14:48:45,341 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.126, IoU: 0.464 
+class Fenetre        weight: 0.503, IoU: 0.276 
+class balcon         weight: 0.239, IoU: 0.101 
+class toit           weight: 0.064, IoU: 0.277 
+class végétation     weight: 0.068, IoU: 0.818 
+
+2021-06-16 14:48:45,341 - Model - INFO - Eval mean loss: 1.222882
+2021-06-16 14:48:45,342 - Model - INFO - Eval accuracy: 0.576438
+2021-06-16 14:48:45,342 - Model - INFO - Best mIoU: 0.423932
+2021-06-16 14:48:45,342 - Model - INFO - **** Epoch 21 (21/25) ****
+2021-06-16 14:48:45,343 - Model - INFO - Learning rate:0.000010
+2021-06-16 14:51:34,282 - Model - INFO - Training mean loss: 0.277370
+2021-06-16 14:51:34,282 - Model - INFO - Training accuracy: 0.888299
+2021-06-16 14:51:34,282 - Model - INFO - Save model...
+2021-06-16 14:51:34,282 - Model - INFO - Saving at log\sem_seg\2021-06-16_13-22\checkpoints/model.pth
+2021-06-16 14:51:34,356 - Model - INFO - Saving model....
+2021-06-16 14:51:34,356 - Model - INFO - ---- EPOCH 021 EVALUATION ----
+2021-06-16 14:53:04,523 - Model - INFO - eval mean loss: 1.138922
+2021-06-16 14:53:04,523 - Model - INFO - eval point avg class IoU: 0.405539
+2021-06-16 14:53:04,524 - Model - INFO - eval point accuracy: 0.604664
+2021-06-16 14:53:04,524 - Model - INFO - eval point avg class acc: 0.519630
+2021-06-16 14:53:04,525 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.133, IoU: 0.497 
+class Fenetre        weight: 0.506, IoU: 0.283 
+class balcon         weight: 0.235, IoU: 0.142 
+class toit           weight: 0.066, IoU: 0.243 
+class végétation     weight: 0.061, IoU: 0.863 
+
+2021-06-16 14:53:04,526 - Model - INFO - Eval mean loss: 1.138922
+2021-06-16 14:53:04,526 - Model - INFO - Eval accuracy: 0.604664
+2021-06-16 14:53:04,526 - Model - INFO - Best mIoU: 0.423932
+2021-06-16 14:53:04,526 - Model - INFO - **** Epoch 22 (22/25) ****
+2021-06-16 14:53:04,527 - Model - INFO - Learning rate:0.000010
+2021-06-16 14:55:56,381 - Model - INFO - Training mean loss: 0.259414
+2021-06-16 14:55:56,382 - Model - INFO - Training accuracy: 0.894055
+2021-06-16 14:55:56,382 - Model - INFO - ---- EPOCH 022 EVALUATION ----
+2021-06-16 14:57:27,798 - Model - INFO - eval mean loss: 1.178400
+2021-06-16 14:57:27,799 - Model - INFO - eval point avg class IoU: 0.407462
+2021-06-16 14:57:27,799 - Model - INFO - eval point accuracy: 0.599214
+2021-06-16 14:57:27,799 - Model - INFO - eval point avg class acc: 0.533352
+2021-06-16 14:57:27,800 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.124, IoU: 0.493 
+class Fenetre        weight: 0.515, IoU: 0.282 
+class balcon         weight: 0.232, IoU: 0.123 
+class toit           weight: 0.063, IoU: 0.299 
+class végétation     weight: 0.065, IoU: 0.840 
+
+2021-06-16 14:57:27,800 - Model - INFO - Eval mean loss: 1.178400
+2021-06-16 14:57:27,801 - Model - INFO - Eval accuracy: 0.599214
+2021-06-16 14:57:27,801 - Model - INFO - Best mIoU: 0.423932
+2021-06-16 14:57:27,801 - Model - INFO - **** Epoch 23 (23/25) ****
+2021-06-16 14:57:27,801 - Model - INFO - Learning rate:0.000010
+2021-06-16 15:00:17,888 - Model - INFO - Training mean loss: 0.272913
+2021-06-16 15:00:17,888 - Model - INFO - Training accuracy: 0.889836
+2021-06-16 15:00:17,889 - Model - INFO - ---- EPOCH 023 EVALUATION ----
+2021-06-16 15:01:48,391 - Model - INFO - eval mean loss: 1.214397
+2021-06-16 15:01:48,392 - Model - INFO - eval point avg class IoU: 0.399173
+2021-06-16 15:01:48,392 - Model - INFO - eval point accuracy: 0.599838
+2021-06-16 15:01:48,392 - Model - INFO - eval point avg class acc: 0.507768
+2021-06-16 15:01:48,392 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.118, IoU: 0.509 
+class Fenetre        weight: 0.499, IoU: 0.261 
+class balcon         weight: 0.235, IoU: 0.098 
+class toit           weight: 0.058, IoU: 0.267 
+class végétation     weight: 0.090, IoU: 0.861 
+
+2021-06-16 15:01:48,393 - Model - INFO - Eval mean loss: 1.214397
+2021-06-16 15:01:48,393 - Model - INFO - Eval accuracy: 0.599838
+2021-06-16 15:01:48,393 - Model - INFO - Best mIoU: 0.423932
+2021-06-16 15:01:48,393 - Model - INFO - **** Epoch 24 (24/25) ****
+2021-06-16 15:01:48,393 - Model - INFO - Learning rate:0.000010
+2021-06-16 15:04:39,908 - Model - INFO - Training mean loss: 0.271801
+2021-06-16 15:04:39,908 - Model - INFO - Training accuracy: 0.893023
+2021-06-16 15:04:39,909 - Model - INFO - ---- EPOCH 024 EVALUATION ----
+2021-06-16 15:06:12,547 - Model - INFO - eval mean loss: 1.078727
+2021-06-16 15:06:12,547 - Model - INFO - eval point avg class IoU: 0.411230
+2021-06-16 15:06:12,547 - Model - INFO - eval point accuracy: 0.624247
+2021-06-16 15:06:12,547 - Model - INFO - eval point avg class acc: 0.521279
+2021-06-16 15:06:12,547 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.148, IoU: 0.514 
+class Fenetre        weight: 0.504, IoU: 0.300 
+class balcon         weight: 0.232, IoU: 0.171 
+class toit           weight: 0.065, IoU: 0.220 
+class végétation     weight: 0.051, IoU: 0.852 
+
+2021-06-16 15:06:12,548 - Model - INFO - Eval mean loss: 1.078727
+2021-06-16 15:06:12,548 - Model - INFO - Eval accuracy: 0.624247
+2021-06-16 15:06:12,549 - Model - INFO - Best mIoU: 0.423932
+2021-06-16 15:06:12,549 - Model - INFO - **** Epoch 25 (25/25) ****
+2021-06-16 15:06:12,549 - Model - INFO - Learning rate:0.000010
+2021-06-16 15:09:04,643 - Model - INFO - Training mean loss: 0.258357
+2021-06-16 15:09:04,644 - Model - INFO - Training accuracy: 0.897288
+2021-06-16 15:09:04,645 - Model - INFO - ---- EPOCH 025 EVALUATION ----
+2021-06-16 15:10:37,328 - Model - INFO - eval mean loss: 1.122914
+2021-06-16 15:10:37,329 - Model - INFO - eval point avg class IoU: 0.423046
+2021-06-16 15:10:37,329 - Model - INFO - eval point accuracy: 0.612999
+2021-06-16 15:10:37,329 - Model - INFO - eval point avg class acc: 0.534030
+2021-06-16 15:10:37,330 - Model - INFO - ------- IoU --------
+class Facade         weight: 0.112, IoU: 0.524 
+class Fenetre        weight: 0.513, IoU: 0.260 
+class balcon         weight: 0.238, IoU: 0.204 
+class toit           weight: 0.067, IoU: 0.286 
+class végétation     weight: 0.069, IoU: 0.843 
+
+2021-06-16 15:10:37,331 - Model - INFO - Eval mean loss: 1.122914
+2021-06-16 15:10:37,331 - Model - INFO - Eval accuracy: 0.612999
+2021-06-16 15:10:37,331 - Model - INFO - Best mIoU: 0.423932
