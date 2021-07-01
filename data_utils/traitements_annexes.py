@@ -160,7 +160,7 @@ for nuage_name in tqdm(nuage_name):
     np.savetxt(nuage_path, nuage_final, fmt = fmt)
     
     
-#%% Supression des 3D Feature sur Musée zoo sans fenetre
+#%% Suppression des 3D Feature sur Musée zoo sans fenetre
 
 
 import os
