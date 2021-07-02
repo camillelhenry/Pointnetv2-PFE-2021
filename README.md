@@ -59,8 +59,10 @@ The databases used for the study are available here : VIGO Thermique [link], VIG
 | mIoU  | 0.41  | 0.35  | 0.50  | 0.42  | 
 
 
-### Visualization
-![vigo_thermique](github1.png)
-Segmentation results on a test point cloud of VIGO Thermique 
+## Visualization and results
 
-![vigo_hist](histogramm_vigo.png)
+Segmentation results on a test point cloud of VIGO Thermique 
+![vigo_thermique](github1.png)
+
+
+![vigo_hist](histogramm_vigo.PNG)
