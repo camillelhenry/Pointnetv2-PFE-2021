@@ -32,10 +32,10 @@ For more information, you can refer to [this](https://www.youtube.com/watch?v=Iu
 
 ## Using the implementation for point clouds semantic segmentation
 
-# Data preparation 
+### Data preparation 
 
 Your point clouds must be .txt files of the form ```X Y Z Characteristics Label```. I also recommend that you open them on **CloudCompare** software, which you can download for free [here](http://www.danielgm.net/cc/release/) as a precautionary measure. Your data must be splited into 3 folders named **Training**, **Validation** and **Test** in ```data```. Make sure that a point cloud does not appear twice in different folders. 
 
-If you want to use your own dataset to train and test PointNet++, you also need to adapt the script *dataloader_vigo_thermique_rgb.py* that you can find at ```data_utils/dataloader_vigo_thermique_rgb.py```. The changes you have to make are notified by the sign /!\. Please read carefully the comments to avoid making mistakes.
+If you want to use your own dataset to train and test PointNet++, you also need to adapt the script *dataloader_vigo_thermique_rgb.py* that you can find at ```data_utils/dataloader_vigo_thermique_rgb.py```. The changes you have to make are notified by the sign /!\\. Please read carefully the comments to avoid making mistakes.
 
 
