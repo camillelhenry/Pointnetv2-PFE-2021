@@ -68,6 +68,7 @@ Best segmentation results on a test point cloud of VIGO Thermique
 ![vigo_thermique](github1.png)
 
 
-Best segmentation results on a test point cloud of VIGO Thermique 
+Best segmentation results on a test point cloud of Musée Zoologique
 
+![musee](musee_zoo.png)
 
