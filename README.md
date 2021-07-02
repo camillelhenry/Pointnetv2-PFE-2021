@@ -31,3 +31,7 @@ torch.cuda.is_available()
 For more information, you can refer to [this](https://www.youtube.com/watch?v=IubEtS2JAiY&t=766s) youtube video.
 
 ## Using the implementation for point clouds semantic segmentation
+
+# Data preparation 
+
+If you want to use your own dataset to train and test PointNet++, you first need to adapt the script dataloader_vigo_thermique_rgb.py that you can find at ```data_utils/dataloader_vigo_thermique_rgb.py```. 
