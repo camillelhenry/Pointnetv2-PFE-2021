@@ -60,5 +60,4 @@ The databases used for the study are available here : VIGO Thermique [link], VIG
 
 
 ### Visualization
-
-![Alt text](relative/path/to/github1.png?raw=true "Title")
+![What is this](github1.png)
