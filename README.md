@@ -66,4 +66,4 @@ Segmentation results on a test point cloud of VIGO Thermique
 ![vigo_thermique](github1.png)
 
 
-![vigo_hist](histogramm_vigo.PNG) 
+
