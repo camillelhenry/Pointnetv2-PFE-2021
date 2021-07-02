@@ -46,10 +46,10 @@ To start your training and test your neural network, you must run the script *tr
 
 The databases used for the study are available here : VIGO Thermique [link], VIGO RGB [link] VIGO Thermique + 3D-FEAT [link], Musée Zoologique [Link]
 
-| Database  | VIGO Thermique | Database  | VIGO Thermique | Database  | VIGO Thermique | 
-| ------------- | ------------- | ------------- | -------------| ------------- | -------------|
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell |
-| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell |
+|   | VIGO Thermique | VIGO RGB  | VIGO Thermique + 3D-FEAT | Musée Zoologique  | 
+| ------------- | ------------- | ------------- | -------------| ------------- |
+| IoU Windows  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | 
 
 
 
