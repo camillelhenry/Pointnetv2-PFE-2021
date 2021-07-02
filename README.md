@@ -8,12 +8,12 @@ TO DO LIST :
 
 ## About the repo
 
-This repo is an implementation for [PointNet](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf) in PyTorch, based on [yanx27](https://github.com/yanx27/Pointnet_Pointnet2_pytorch) repo. 
-It's a project realized for my end of study internship to obtain my engineering diploma at INSA (National Institute of Applied Sciences) of Strasbourg. This internship was carried out in the TRIO team of the ICube laboratory and was directed by Tania LANDES. For more information about the project, you can read my master thesis [put the link].
+This repo is an implementation for [PointNet++](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf) in PyTorch, based on [yanx27](https://github.com/yanx27/Pointnet_Pointnet2_pytorch) repo. 
 
 ## About the project (Detection of openings by semantic segmentation of 3D indoor/outdoor point clouds: contribution of deep learning)
 
-The goal of the project is to segment point clouds of buildings with the PointNet ++ neural network, and to focus on the results obtained on the classes of openings (windows and doors) in order to automate the Scan-to-BIM process. 
+The goal of the project is to segment point clouds of buildings with the PointNet ++ neural network, and to focus on the results obtained on the classes of openings (windows and doors) in order to automate the Scan-to-BIM process. It's a project realized for my end of study internship to obtain my engineering diploma at INSA (National Institute of Applied Sciences) of Strasbourg. This internship was carried out in the TRIO team of the ICube laboratory and was directed by Tania LANDES. For more information about the project, you can read my master thesis [put the link].
+
 
 ## Install 
 
