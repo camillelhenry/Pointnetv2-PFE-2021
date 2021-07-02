@@ -60,4 +60,7 @@ The databases used for the study are available here : VIGO Thermique [link], VIG
 
 
 ### Visualization
-![What is this](github1.png)
+![vigo_thermique](github1.png)
+Segmentation results on a test point cloud of VIGO Thermique 
+
+![vigo_hist](histogramm_vigo.png)
