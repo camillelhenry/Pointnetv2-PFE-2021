@@ -52,6 +52,8 @@ If you want to use your own dataset to train and test PointNet++, you also need 
 
 The databases used for the study are available here : VIGO Thermique [link], VIGO RGB [link] VIGO Thermique + 3D-FEAT [link], Musée Zoologique [Link].For more information about the databases, please check my master thesis [put the link].
 
+Average results on cross-validation : 
+
 
 |   | VIGO Thermique | VIGO RGB  | VIGO Thermique + 3D-FEAT | Musée Zoologique  | 
 | ------------- | ------------- | ------------- | -------------| ------------- |
@@ -61,9 +63,11 @@ The databases used for the study are available here : VIGO Thermique [link], VIG
 
 ## Visualization and results
 
-Segmentation results on a test point cloud of VIGO Thermique 
+Best segmentation results on a test point cloud of VIGO Thermique 
 
 ![vigo_thermique](github1.png)
 
+
+Best segmentation results on a test point cloud of VIGO Thermique 
 
 
