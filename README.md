@@ -28,3 +28,6 @@ To run the codes, you also need some GPU devices (the one use for the project is
 import torch
 torch.cuda.is_available()
 ```
+For more information, you can refer to [this](https://www.youtube.com/watch?v=IubEtS2JAiY&t=766s) youtube video.
+
+## Using the implementation for point clouds semantic segmentation
