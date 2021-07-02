@@ -70,5 +70,5 @@ Best segmentation results on a test point cloud of VIGO Thermique
 
 Best segmentation results on a test point cloud of Musée Zoologique
 
-![musee](musee_zoo.png)
+![musee](musee_zoo.PNG)
 
