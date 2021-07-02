@@ -34,8 +34,12 @@ For more information, you can refer to [this](https://www.youtube.com/watch?v=Iu
 
 ### Data preparation 
 
-Your point clouds must be .txt files of the form ```X Y Z Characteristics Label```. I also recommend that you open them on **CloudCompare** software, which you can download for free [here](http://www.danielgm.net/cc/release/) as a precautionary measure. Your data must be splited into 3 folders named **Training**, **Validation** and **Test** in ```data```. Make sure that a point cloud does not appear twice in different folders. 
+Your point clouds must be .txt files of the form ```X Y Z Characteristics Label```. The facades must be oriented according to the X and Y. I also recommend that you open them on **CloudCompare** software, which you can download for free [here](http://www.danielgm.net/cc/release/) as a precautionary measure. Your data must be splited into 3 folders named **Training**, **Validation** and **Test** in ```data```. Make sure that a point cloud does not appear twice in different folders. Some examples of point clouds are provided in this repo. 
 
 If you want to use your own dataset to train and test PointNet++, you also need to adapt the script *dataloader_vigo_thermique_rgb.py* that you can find at ```data_utils/dataloader_vigo_thermique_rgb.py```. The changes you have to make are notified by the sign /!\\. Please read carefully the comments to avoid making mistakes.
+
+### Run 
+
+To start your training and test your neural network, you must run the script *train_test_sem_seg.py*. If you are using your own data, you also must do some changes on the code, which are notified by the sign /!\\. After processing, you can find the journal of your training at ```log/sem_seg/yyy-mm-dd_hh_mm/logs``` and check for quality criteria. The graphs of the error and accuracy functions will be saved at ```log/sem_seg/yyy-mm-dd_hh_mm/graphique```. Visualization results will save in ```log/sem_seg/yyy-mm-dd_hh_mm/visual```  and you can visualize these .txt file by CloudCompare.
 
 
