@@ -40,6 +40,6 @@ If you want to use your own dataset to train and test PointNet++, you also need 
 
 ### Run 
 
-To start your training and test your neural network, you must run the script *train_test_sem_seg.py*. If you are using your own data, you also must do some changes on the code, which are notified by the sign /!\\. After processing, you can find the journal of your training at ```log/sem_seg/yyy-mm-dd_hh_mm/logs``` and check for quality criteria. The graphs of the error and accuracy functions will be saved at ```log/sem_seg/yyy-mm-dd_hh_mm/graphique```. Visualization results will save in ```log/sem_seg/yyy-mm-dd_hh_mm/visual```  and you can visualize these .txt file by CloudCompare.
+To start your training and test your neural network, you must run the script *train_test_sem_seg.py*. If you are using your own data, you also have to do some changes on the code, which are notified by the sign /!\\. After processing, you can find the journal of your training at ```log/sem_seg/yyyy-mm-dd_hh_mm/logs``` and check for quality criteria. The graphs of the error and accuracy functions will be saved at ```log/sem_seg/yyyy-mm-dd_hh_mm/graphique```. Visualization results will save in ```log/sem_seg/yyyy-mm-dd_hh_mm/visual```  and you can visualize these .txt file by CloudCompare.
 
 
