@@ -72,3 +72,4 @@ Best segmentation results on a test point cloud of Musée Zoologique
 
 ![musee](musee_zoo.PNG)
 
+![musee](zoom_musee_seg.PNG)
