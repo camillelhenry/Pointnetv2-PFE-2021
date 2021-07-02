@@ -20,9 +20,9 @@ The goal of the project is to segment point clouds of buildings with the PointNe
 The latest codes are tested on Window 10, CUDA 11.1, PyTorch 1.6 and Python 3.8. 
 
 To run the codes, you also need some GPU devices (the one use for the project is NVIDIA GeForce GTX 1070 with 16 Go of dedicated memory). In order to use the GPU with Python, you also need to install : 
-- NVIDIA Driver for your GPU (you can find it in [NVIDIA's website](https://www.nvidia.com/Download/index.aspx?lang=en-us))
-- CUDO Toolkit (you can find the CUDA Toolkit Archive [here](https://developer.nvidia.com/cuda-toolkit-archive). Be sure to check the CUDA Toolkit version that PyTorch currently supports. You can find that information on PyTorch's site).
-- cuDNN library (navigate again in [NVIDIA's website](https://developer.nvidia.com/cudnn). Choose to download the version of cuDNN that corresponds to the PyTorch-supported version of the CUDA Toolkit that you downloaded in the last step).
+- **NVIDIA Driver** for your GPU (you can find it in [NVIDIA's website](https://www.nvidia.com/Download/index.aspx?lang=en-us))
+- **CUDA Toolkit** (you can find the CUDA Toolkit Archive [here](https://developer.nvidia.com/cuda-toolkit-archive). Be sure to check the CUDA Toolkit version that PyTorch currently supports. You can find that information on PyTorch's site).
+- **cuDNN library** (navigate again in [NVIDIA's website](https://developer.nvidia.com/cudnn). Choose to download the version of cuDNN that corresponds to the PyTorch-supported version of the CUDA Toolkit that you downloaded in the last step).
 - You can check if python is using your GPU devices with this code : 
 ```
 import torch
