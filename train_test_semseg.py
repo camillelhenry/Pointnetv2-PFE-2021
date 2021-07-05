@@ -33,7 +33,7 @@ Les explications des lignes de codes sont notifiées par le signe /?\
 
 import argparse
 import os
-from data_utils.dataloader_vigo_thermique import train_val_dataset, TestWholeScene # /!\ : Utiliser le script de pré-traitements correspondant à la base de données utilisées
+from data_utils.dataloader_vigo_thermique_rgb import train_val_dataset, TestWholeScene # /!\ : Utiliser le script de pré-traitements correspondant à la base de données utilisées
 import torch
 import datetime
 import logging
