@@ -4,7 +4,7 @@ TO DO LIST :
 
 - Relire 
 - Mettre un lien vers le rapport de PFE et le poster 
-- Faire un script spécial pour test indiv ?
+- Mettre un lien vers les données
 
 ## About the repo
 
