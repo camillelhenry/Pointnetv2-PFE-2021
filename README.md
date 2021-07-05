@@ -47,6 +47,7 @@ If you want to use your own dataset to train and test PointNet++, you also need 
 - After processing, you can find the journal of your training at ```log/sem_seg/yyyy-mm-dd_hh_mm/logs``` and check for quality criteria. 
 - The graphs of the error and accuracy functions will be saved at ```log/sem_seg/yyyy-mm-dd_hh_mm/graphique```. 
 - Visualization results will save in ```log/sem_seg/yyyy-mm-dd_hh_mm/visual```  and you can visualize these .txt file by CloudCompare.
+- To launch another test of your model, you can also use the script *individual_semseg.py* 
 
 ### Performance
 
