@@ -82,7 +82,7 @@ def parse_args():
     parser.add_argument('--model', type=str, default='pointnet2_sem_seg_msg', help='model name [default: pointnet_sem_seg]') # Version de PointNet++
     parser.add_argument('--batch_size', type=int, default=15, help='Batch Size during training [default: 16]') # Taille des lots
     parser.add_argument('--epoch',  default=25, type=int, help='Epoch to run [default: 128]') # Nombre d'époques
-    parser.add_argument('--learning_rate', default=0.001, type=float, help='Initial learning rate [default: 0.001]')
+    parser.add_argument('--learning_rate', default=0.1, type=float, help='Initial learning rate [default: 0.001]')
     parser.add_argument('--gpu', type=str, default='0', help='GPU to use [default: GPU 0]') # Utilisation du GPU
     parser.add_argument('--optimizer', type=str, default='Adam', help='Adam or SGD [default: Adam]') # Optimisation de la descente de gradient
     parser.add_argument('--log_dir', type=str, default=None, help='Log path [default: None]')
