@@ -45,8 +45,6 @@ If you want to use your own dataset to train and test PointNet++, you also need 
 
 ### Performance
 
-The databases used for the study are available here : VIGO Thermique [link], VIGO RGB [link] VIGO Thermique + 3D-FEAT [link], Musée Zoologique [Link].For more information about the databases, please check my master thesis [put the link].
-
 Average results on cross-validation : 
 
 
