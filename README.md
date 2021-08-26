@@ -1,11 +1,5 @@
 # PFE_2021 : PointNet++ Pytorch Implementation  
 
-TO DO LIST : 
-
-- Relire 
-- Mettre un lien vers le rapport de PFE et le poster 
-- Mettre un lien vers les données
-
 ## About the repo
 
 This repo is an implementation for [PointNet++](https://proceedings.neurips.cc/paper/2017/file/d8bf84be3800d12f74d8b05e9b89836f-Paper.pdf) in PyTorch, based on [yanx27](https://github.com/yanx27/Pointnet_Pointnet2_pytorch) repo. 
